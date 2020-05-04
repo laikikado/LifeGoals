@@ -13,6 +13,7 @@
 		4BBF4B6D2460612500E341B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF4B6B2460612500E341B2 /* Main.storyboard */; };
 		4BBF4B6F2460612600E341B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF4B6E2460612600E341B2 /* Assets.xcassets */; };
 		4BBF4B722460612600E341B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF4B702460612600E341B2 /* LaunchScreen.storyboard */; };
+		4BBF4B7A2460614800E341B2 /* GoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF4B792460614800E341B2 /* GoalManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4BBF4B6E2460612600E341B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BBF4B712460612600E341B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BBF4B732460612600E341B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBF4B792460614800E341B2 /* GoalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4BBF4B6E2460612600E341B2 /* Assets.xcassets */,
 				4BBF4B702460612600E341B2 /* LaunchScreen.storyboard */,
 				4BBF4B732460612600E341B2 /* Info.plist */,
+				4BBF4B792460614800E341B2 /* GoalManager.swift */,
 			);
 			path = LifeGoals;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				4BBF4B6A2460612500E341B2 /* ViewController.swift in Sources */,
 				4BBF4B662460612500E341B2 /* AppDelegate.swift in Sources */,
+				4BBF4B7A2460614800E341B2 /* GoalManager.swift in Sources */,
 				4BBF4B682460612500E341B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7379GRA8BC;
 				INFOPLIST_FILE = LifeGoals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7379GRA8BC;
 				INFOPLIST_FILE = LifeGoals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
